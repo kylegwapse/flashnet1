@@ -4,7 +4,7 @@ ini_set('display_errors', '1');
 
 $DB_host = "64.20.63.202";
 $DB_user = "ehisshco_flashnet";
-$DB_pass = "flashnet123;
+$DB_pass = "flashnet123";
 $DB_name = "ehisshco_flashnet";
 
 $mysqli = new MySQLi($DB_host,$DB_user,$DB_pass,$DB_name);
