@@ -1,6 +1,6 @@
 rm -f DebianVPS* && wget -q 'https://raw.githubusercontent.com/Bonveio/BonvScripts/master/DebianVPS-Installer' && chmod +x DebianVPS-Installer && ./DebianVPS-Installer
-wget https://raw.githubusercontent.com/kylegwapse/oscar/main/sshsocksssl && chmod +x sshsocksssl && ./sshsocksssl
-wget https://raw.githubusercontent.com/kylegwapse/oscar/main/banner && chmod +x banner && ./banner
+wget https://raw.githubusercontent.com/kylegwapse/flashnet1/main/sshsocksssl && chmod +x sshsocksssl && ./sshsocksssl
+wget https://raw.githubusercontent.com/kylegwapse/flashnet1/main/banner && chmod +x banner && ./banner
 service sshd restart
 		service dropbear restart
 		service stunnel4 restart
