@@ -2,10 +2,10 @@
 error_reporting(E_ERROR | E_PARSE);
 ini_set('display_errors', '1');
 
-$DB_host = "64.20.63.202";
-$DB_user = "ehisshco_flashnet";
-$DB_pass = "flashnet123";
-$DB_name = "ehisshco_flashnet";
+$DB_host = "64.20.48.90";
+$DB_user = "vpnflash_vpnflash";
+$DB_pass = "vpnflash123";
+$DB_name = "vpnflash_vpnflasht";
 
 $mysqli = new MySQLi($DB_host,$DB_user,$DB_pass,$DB_name);
 if ($mysqli->connect_error) {
