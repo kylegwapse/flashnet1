@@ -5,7 +5,7 @@ ini_set('display_errors', '1');
 $DB_host = "64.20.48.90";
 $DB_user = "vpnflash_vpnflash";
 $DB_pass = "vpnflash123";
-$DB_name = "vpnflash_vpnflasht";
+$DB_name = "vpnflash_vpnflash";
 
 $mysqli = new MySQLi($DB_host,$DB_user,$DB_pass,$DB_name);
 if ($mysqli->connect_error) {
